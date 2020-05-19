@@ -27,6 +27,7 @@ body{
 		}
   .menu{
    width: 100%;
+  	height: 8vh;
    height:100px;
    background-color: rgba(0,0,0,0.5);
   }
@@ -37,6 +38,15 @@ body{
 	background-image: linear-gradient(to right,rgba(0,250,250,0.5), rgba(255,0,0,0) );
    float: left;
    /*background-color: blue;*/
+
+  }
+  .rightmenu{
+   width: 75%;
+   height: 14vh;
+   	background-image: linear-gradient(to left,rgba(50,100,100,0.5), rgba(50,100,100,0.2) );
+   float: right;
+   /*background-color: red;*/
+
 
   }
   .leftmenu h4{
@@ -54,15 +64,7 @@ body{
   	/*size: 2px;*/
   	width: 40%;
   }
-  .rightmenu{
-   width: 75%;
-   height: 100px;
-   	background-image: linear-gradient(to left,rgba(50,100,100,0.5), rgba(50,100,100,0.2) );
-   float: right;
-   /*background-color: red;*/
-
-
-  }.rightmenu ul{
+  .rightmenu ul{
    margin-left: 50%; 
   }
 
