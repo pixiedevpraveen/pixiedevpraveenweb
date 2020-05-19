@@ -1,0 +1,235 @@
+/*style.css*/
+body{
+   margin: 0px;
+   padding: 0px;
+   height: 3000px;
+  }
+
+  .bgimage{
+   /*background-image: url(https://3.bp.blogspot.com/-j_xeKBHYhtw/XTdam8xOeLI/AAAAAAAAAPs/BaHdy6T8G1ImTUPM8F8udgZLlg_va9x_gCLcBGAs/s400/Desert.jpg);*/
+   /*background-image: url(img/person.jpg);*/
+   z-index: -5;
+   background-size: 100% 100%;
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background-attachment: fixed;
+		   display: inline;
+  }
+  section
+		{
+		   z-index: -6;
+			position: relative;
+			width: 100%;
+			height: 70vh;
+			background: url(img/person.jpg);
+			background-attachment: fixed;
+		}
+  .menu{
+   width: 100%;
+   height:100px;
+   background-color: rgba(0,0,0,0.5);
+  }
+  .leftmenu{
+   width: 25%;
+   line-height: 40px;
+   background-color: rgba(0,0,0,0);
+	background-image: linear-gradient(to right,rgba(0,250,250,0.5), rgba(255,0,0,0) );
+   float: left;
+   /*background-color: blue;*/
+
+  }
+  .leftmenu h4{
+   font-height: 10px;
+   padding: 20px;
+   font-weight: bold;
+   color: white;
+   font-size: 28px;
+   font-family: sans-serif;
+  }
+  .leftmenu img{
+  	padding-left: 10%;
+  	padding-top: 8%;
+  	height: 8vh;
+  	/*size: 2px;*/
+  	width: 40%;
+  }
+  .rightmenu{
+   width: 75%;
+   height: 100px;
+   	background-image: linear-gradient(to left,rgba(50,100,100,0.5), rgba(50,100,100,0.2) );
+   float: right;
+   /*background-color: red;*/
+
+
+  }.rightmenu ul{
+   margin-left: 50%; 
+  }
+
+  .rightmenu ul li{
+   font-family: sans-serif;
+
+   display: inline-block;
+   list-style: none;
+   font-size: 15px;
+   color: white;
+   font-weight: bold;
+   line-height: 100px;
+   margin-left: 2%;
+   text-transform: uppercase;
+
+  }
+  #menuHomeWidget{
+   color: orange;
+  }
+  #sid{
+   color: #DC5F9A;
+  }
+  #menuCotactWidget{
+   color: #DE2656;
+  }
+  .rightmenu ul li:hover{
+  	cursor: pointer;
+   color: red;
+  }
+  #menuHomeWidget:hover{
+   color: green;}
+   #sid:hover{
+     color:green;
+   }
+   #menuCotactWidget:hover{
+    color: green;
+   }
+
+   .text{
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+   }
+
+   .text h4{
+    font-size: 20px;
+    font-family: serif;
+   }
+   .text h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin: 14px 0px;
+   }
+   .text h3{
+    font-size: 15px;
+    font-family: sans-serif;
+   }
+   .container{
+   	position: relative;
+   text-align: center;
+   margin-top: -5%;
+  }
+  .containerA{
+  	z-index: 1;
+   	position: relative;
+   	display: inline-block;
+  	margin-left: 40%;
+   /*margin-top: 36%;*/
+  }
+  .containerB{
+  	z-index: 1;
+   	display: inline-block;
+   	position: relative;
+   /*margin-top: 36%;*/
+  }
+ .btn{
+   border: 1px solid #3498db;
+   background: none;
+   padding: 10px 20px;
+   font-size: 20px;
+   font-family: "monstserrat";
+   cursor: pointer;
+   margin: 10px;
+   transition: 0.8s;
+   position: relative;
+   overflow: hidden;
+  }
+  .btn1,.btn2{
+   color: #3498db;
+
+  }
+  .btn3,.btn4{
+   color: #fff;
+
+  }
+  .btn1:hover,.btn2:hover{
+   color: #fff;
+  }
+  .btn3:hover,.btn4:hover{
+   color: #3498db;
+  }
+  .btn::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   width: 100%;
+   height: 0%;
+   background: #3498db;
+   z-index: -1;
+   transition: 0.8s;
+  }
+  .btn1::before,.btn3::before{
+   top: 0;
+   border-radius: 0 0 50% 50%;
+  }
+  .btn2::before,.btn4::before{
+   bottom: 0;
+   border-radius: 50% 50% 0 0;
+  }
+  .btn3::before,.btn4::before{
+   height: 180%;
+  }
+  .btn1:hover::before,.btn2:hover::before{
+   height: 180%;
+  }
+  .btn3:hover::before,.btn4:hover::before{
+   height: 0%;
+   }
+
+/*
+		section
+		{
+			position: relative;
+			width: 100%;
+			height: 2000px;
+			background: url(person.jpg);
+			background-attachment: fixed;
+		}*/   
+
+   /*
+   #BUTTONONE{
+    background-color: transparent;
+    border: none;
+
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 40px;
+  	cursor: pointer;
+    width: 150px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 25px;
+    border: 3px solid white;
+
+   }
+   #BUTTONTWO{
+    background-color: transparent;
+    border: 3PX solid white;
+  	cursor: pointer;
+    font-size: 19PX ;
+    color: white;
+    line-height: 40px;
+    width: 150px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+   }*/
