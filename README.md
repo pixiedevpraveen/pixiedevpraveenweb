@@ -1,2 +1,3 @@
 # pixiedevpraveen.github.io
-This is for my useful documents
+Hey! I am Praveen.
+This repository is for my useful documents.
